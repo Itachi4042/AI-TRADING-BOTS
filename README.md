@@ -17,3 +17,4 @@ The strategy was backtested on 10 NIFTY 50 stocks over 3 timeframes (5m, 15m, 1h
 
 Finally, the results were visualized using Seaborn/Matplotlib, including heatmaps of winrate by hyperparameter, and clean line plots showing winrate vs trade frequency for each RR ratio.
 
+The second bot is a fully automated trading bot (Expert Advisor) for MetaTrader 5 that implements a Liquidity Sweep + Confirmed Shift in Direction (CSD) strategy. It identifies stop hunts beyond session highs/lows and enters trades after detecting a reversal confirmation candle — making it suitable for forex, commodities, and crypto pairs.
